@@ -180,7 +180,7 @@ export const movies = {
   28: {
     id: 28,
     title: "Pride & Prejudice",
-    img: "./img/Pride&Prejudice.webp",
+    img: "./img/Pride-Prejudice.webp",
     imdbUrl: "https://www.imdb.com/title/tt0414387/",
   },
   30: {
