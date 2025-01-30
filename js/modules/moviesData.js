@@ -97,7 +97,7 @@ export const movies = {
     id: 8,
     title: "Flash",
     img: "./img/flash.png",
-    imdbUrl: "https://www.imdb.com/title/tt2294629/",
+    imdbUrl: "https://www.imdb.com/es/title/tt3107288/",
   },
   10: {
     id: 10,
