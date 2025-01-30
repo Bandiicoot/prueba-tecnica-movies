@@ -1,0 +1,14 @@
+.imdb-button {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.imdb-button:hover {
+  background: #ff0a16;
+}

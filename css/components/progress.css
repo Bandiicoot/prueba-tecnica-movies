@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.progress-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 220px;
+  height: 97px;
+}
+
+.progress-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #22daab;
+  margin-bottom: 9px;
+}
+
+.progress-dots {
+  display: flex;
+  gap: 8px;
+  width: 135px;
+  justify-content: space-between;
+}
+
+.dot {
+  width: 19px;
+  height: 19px;
+  background: white;
+  border: 2px solid #00e6ac;
+  border-radius: 50%;
+  transition: background 0.3s ease-in-out;
+}
+
+.dot.active {
+  background: #00e6ac;
+}
